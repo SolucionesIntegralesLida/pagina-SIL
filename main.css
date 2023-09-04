@@ -1,0 +1,174 @@
+*{
+	margin: 0; 
+	border: 0;
+}
+body{
+	background-color: #FFFFFF;
+	position: relative;
+}
+nav{
+	background-color: #456190;
+	padding: 15px;
+}
+li{
+	list-style: none; 
+	display: inline-block;
+}
+a{
+	text-decoration: none; 
+	color: #ffffff; 
+	padding: 15px;
+	transition: all 1.5s;
+}
+a:hover{
+	background-color: #51CD2A
+}
+a img{
+	position: relative;
+	width: 400px;
+	height: 100px;
+	transition: all 1s;
+}
+a img:hover{
+filter: contrast(35%);
+transform: translate(0%, -10%);
+}
+nav.nav ul li{
+	list-style: none;
+}
+
+h1{
+	color: #ffffff; 
+	font-size: 40px; 
+	padding: 20px; 
+	text-align-last: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+h2{
+	color: #456190; 
+	font-size: 40px; 
+	padding: 20px; 
+	font-family: 'Roboto Slab', serif;
+}
+
+div.contenedor{
+	width: 100%; 
+	margin: auto; 
+	display: flex; 
+	justify-content:  
+	space-between;
+}
+
+ img{
+
+   width: 1250px;
+   height: 550px;
+   margin:auto;
+   display: inline;
+   
+}
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #456190;
+	padding: 5px 5px;
+}
+footer div.copy p{
+padding: 5px 5px;
+font-size: 15px;
+color: white;
+
+}
+footer div.redes a{
+	color: white;
+	padding: 0px 12px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+div.catalogo{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+div.catalogo div{
+	width: 300px;
+	
+}
+div.catalogo div img {
+  width:  125%;
+  height: 525px;
+  transition: all 1s;
+}
+div.catalogo div img:hover{
+	filter: blur(5px);
+}
+iframe{
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 100vh;
+}
+
+div.CONTACTO{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+div.CONTACTO div{
+	width: 1200px;
+}
+div.CONTACTO div img{
+width: 100%;
+height: 20%;
+position: center;
+
+}
+div.quienes{
+	display: all;
+	justify-content: center;
+	justify-content: space-around;
+}
+div.quienes div img{
+	display: flex; 
+	width: 1200px;
+   height: 480px;
+	
+}
+
+div.somos{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+div.somos img{
+	width: 89%;
+    height: 50%;
+}
+div.mision{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+div.mision img{
+	width: 90%;
+    height: 800%
+ }
+ div.vision{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+div.vision img{
+	width: 90%;
+    height: 70%
+ }
